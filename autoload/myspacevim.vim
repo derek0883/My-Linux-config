@@ -19,7 +19,7 @@ func! myspacevim#before() abort
     tnoremap  <Esc>  <C-\><C-n>
 
     " 重新映射 leader 键
-    let g:mapleader = ','
+    " let g:mapleader = ','
     " 重新映射 window 键位
     let g:spacevim_windows_leader = 'c'
 

@@ -45,6 +45,10 @@
     autocomplete_method = "coc"
     bootstrap_before = "myspacevim#before"
     bootstrap_after = "myspacevim#after"
+    filetree_direction = "left"
+    autocomplete_method = "coc"
+    relativenumber = false
+
 
 # ----------------- SpaceVim 添加的各种 layers ---------------------------------
 
@@ -71,6 +75,9 @@
 
 [[layers]]
   name = "lang#latex"
+
+[[layers]]
+  name = "lang#rust"
 
 # ----------------- 添加的插件 -------------------------------------------------
 
@@ -141,5 +148,5 @@
 
 # ----------------- 个人需要，自行取舍 -----------------------------------------
 # 时间统计工具，配合商业网站 https://wakatime.com/ 使用
-[[custom_plugins]]
-    name = 'wakatime/vim-wakatime'
+#[[custom_plugins]]
+#    name = 'wakatime/vim-wakatime'
